@@ -23,8 +23,14 @@ function App() {
         </div>
         <div className="content">
           <div className="container">
+          
+            <div className="image">
+              <img
+              style={{borderRadius:5}} 
+              src="https://i.ibb.co/5xxqbkd/Presentation-created-from-your-Doc.png" />
+            </div>
             <div className="info">
-              <h1>أسهل تأمين أونلاين للسيارات</h1>
+              <h2>أسهل تأمين أونلاين للسيارات</h2>
               <p>
                 شركة رائدة في مجال التأمين متعدد الخطوط في المنطقة. حيث تُقدم
                 قيمة فائقة لعملائها، وتحقق مكاسب مستدامة ومربحة للمساهمين فيها.
@@ -35,15 +41,15 @@ function App() {
               </p>
               <button>اشتر الان</button>
             </div>
-            <div className="image">
-              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
-            </div>
           </div>
         </div>
         <div className="content">
           <div className="container">
+          <div className="image">
+              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
+            </div>
             <div className="info">
-              <h1>تأمين السيارات</h1>
+              <h2>تأمين السيارات</h2>
               <p>
                 أصلاح الوكالة، القيادة في كافة دول مجلس التعاون الخليجي، تأجير
                 السيارات المؤقت عندما يتعلق الأمر بأختيار خطة التأمين المناسبة،
@@ -55,9 +61,7 @@ function App() {
               </p>
               <button>اشتر الان</button>
             </div>
-            <div className="image">
-              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
-            </div>
+            
           </div>
         </div>
         <footer>
@@ -69,7 +73,7 @@ function App() {
               style={{
                 display: 'flex',
                 justifyContent: 'center',
-                marginBottom: 13,
+                marginBottom: 0,
                 color: '#fff',
               }}
             >
@@ -79,7 +83,7 @@ function App() {
             </div>
 
             <div
-              style={{ display: 'flex', justifyContent: 'center', padding: 5 }}
+              style={{ display: 'flex', justifyContent: 'center', padding: 0 }}
             >
               <img
                 style={{ margin: 2 }}
@@ -104,7 +108,7 @@ function App() {
               color: '#fff',
             }}
           >
-            ©  جميع الحقوق محفوظة لشركة فايدي للتأمين     </span>
+             © جميع الحقوق محفوظة لشركة فايدي للتأمين     </span>
         </footer>
       </div>
     </>
