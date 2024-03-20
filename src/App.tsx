@@ -8,7 +8,7 @@ function App() {
         <header>
           <div className="container" dir="rtl">
             <a href="#" className="logo">
-              <b>Logo</b>
+              <b><img src="https://i.ibb.co/7JQwFKH/removebg-preview.png" width={90}/></b>
             </a>
             <ul className="links">
               <li>الرئيسية</li>
@@ -104,8 +104,7 @@ function App() {
               color: '#fff',
             }}
           >
-            © جميع الحقوق محفوظة
-          </span>
+            ©  جميع الحقوق محفوظة لشركة فايدي للتأمين     </span>
         </footer>
       </div>
     </>
