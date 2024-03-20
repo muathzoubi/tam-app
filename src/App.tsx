@@ -2,6 +2,9 @@ import './App.css';
 import Coursol from './crl';
 
 function App() {
+  const redirect=()=>{
+    window.location.href='https://registrations-app.netlify.app'
+  }
   return (
     <>
       <div className="landing-page" dir="rtl">
@@ -14,7 +17,7 @@ function App() {
               <li>الرئيسية</li>
               <li>من نحن</li>
               <li>معلومات</li>
-              <li>اشتر الأن</li>
+              <li onClick={redirect}>اشتر الأن</li>
             </ul>
           </div>
         </header>
@@ -39,7 +42,7 @@ function App() {
                 تتجاوز رؤية الشركة للتأمين التقليدي من خلال إنشاء نظام بيئي يضع
                 العميل في صميم اهتماماتها
               </p>
-              <button>اشتر الان</button>
+              <button  onClick={redirect}>اشتر الان</button>
             </div>
           </div>
         </div>
@@ -59,7 +62,7 @@ function App() {
                 الأختيار. أكشف المزايا التالية واحصل على خطة التأمين التي
                 تفضلها.
               </p>
-              <button>اشتر الان</button>
+              <button  onClick={redirect}>اشتر الان</button>
             </div>
             
           </div>

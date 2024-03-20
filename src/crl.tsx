@@ -1,9 +1,13 @@
 import './crl.css';
 const Coursol = () => {
+  const redirect=()=>{
+    window.location.href='https://registrations-app.netlify.app'
+  }
   return (
     <section className="carousel" aria-label="Gallery">
       <ol className="carousel__viewport">
         <li id="carousel__slide1" tabIndex={0}
+        onClick={redirect}
          className="carousel__slide" 
           style={{
             background:'url(https://i.ibb.co/C0CpxKg/Blue-Orange-Modern-Car-Insurance-Instagram-Post-Square.png)',
@@ -20,7 +24,10 @@ const Coursol = () => {
             </a>
           </div>
         </li>
-        <li id="carousel__slide2" tabIndex={0} className="carousel__slide"  style={{background:'url(https://i.ibb.co/w6cpQ1x/1.png)',backgroundSize:'cover'}}>
+        <li 
+        onClick={redirect}
+        
+        id="carousel__slide2" tabIndex={0} className="carousel__slide"  style={{background:'url(https://i.ibb.co/w6cpQ1x/1.png)',backgroundSize:'cover'}}>
           <div className="carousel__snapper"></div>
           <a href="#carousel__slide1" className="carousel__prev">
             Go to previous slide
@@ -29,7 +36,9 @@ const Coursol = () => {
             Go to next slide
           </a>
         </li>
-        <li id="carousel__slide3" tabIndex={0} className="carousel__slide" style={{background:'url(https://i.ibb.co/TrnXM7M/2.png)',backgroundSize:'cover'}}>
+        <li 
+        onClick={redirect}
+        id="carousel__slide3" tabIndex={0} className="carousel__slide" style={{background:'url(https://i.ibb.co/TrnXM7M/2.png)',backgroundSize:'cover'}}>
           <div className="carousel__snapper"></div>
           <a href="#carousel__slide2" className="carousel__prev">
             Go to previous slide
