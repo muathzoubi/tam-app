@@ -3,7 +3,7 @@ const Coursol = () => {
   return (
     <section className="carousel" aria-label="Gallery">
       <ol className="carousel__viewport">
-        <li id="carousel__slide1" tabIndex={0} className="carousel__slide">
+        <li id="carousel__slide1" tabIndex={0} className="carousel__slide"  style={{background:'url(https://i.ibb.co/C0CpxKg/Blue-Orange-Modern-Car-Insurance-Instagram-Post-Square.png)',backgroundSize:'cover'}}>
           <div className="carousel__snapper">
             <a href="#carousel__slide4" className="carousel__prev">
               Go to last slide
@@ -13,7 +13,7 @@ const Coursol = () => {
             </a>
           </div>
         </li>
-        <li id="carousel__slide2" tabIndex={0} className="carousel__slide">
+        <li id="carousel__slide2" tabIndex={0} className="carousel__slide"  style={{background:'url(https://i.ibb.co/C0CpxKg/Blue-Orange-Modern-Car-Insurance-Instagram-Post-Square.png)',backgroundSize:'cover'}}>
           <div className="carousel__snapper"></div>
           <a href="#carousel__slide1" className="carousel__prev">
             Go to previous slide
@@ -22,7 +22,7 @@ const Coursol = () => {
             Go to next slide
           </a>
         </li>
-        <li id="carousel__slide3" tabIndex={0} className="carousel__slide">
+        <li id="carousel__slide3" tabIndex={0} className="carousel__slide" style={{background:'url(https://i.ibb.co/C0CpxKg/Blue-Orange-Modern-Car-Insurance-Instagram-Post-Square.png)',backgroundSize:'cover'}}>
           <div className="carousel__snapper"></div>
           <a href="#carousel__slide2" className="carousel__prev">
             Go to previous slide
