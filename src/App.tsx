@@ -2,6 +2,10 @@ import './App.css';
 import Coursol from './crl';
 
 function App() {
+  const redireact=()=>{
+     // Simulate a mouse click:
+window.location.href = "https://reqs-app.netlify.app";
+  }
   return (
     <>
       <div className="landing-page" dir="rtl">
@@ -33,7 +37,7 @@ function App() {
                 تتجاوز رؤية الشركة للتأمين التقليدي من خلال إنشاء نظام بيئي يضع
                 العميل في صميم اهتماماتها
               </p>
-              <button>اشتر الان</button>
+              <button onClick={redireact}>اشتر الان</button>
             </div>
             <div className="image">
               <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
@@ -53,7 +57,7 @@ function App() {
                 الأختيار. أكشف المزايا التالية واحصل على خطة التأمين التي
                 تفضلها.
               </p>
-              <button>اشتر الان</button>
+              <button onClick={redireact}>اشتر الان</button>
             </div>
             <div className="image">
               <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
