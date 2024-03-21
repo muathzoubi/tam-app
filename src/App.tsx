@@ -2,9 +2,6 @@ import './App.css';
 import Coursol from './crl';
 
 function App() {
-  const redirect=()=>{
-    window.location.href='https://registrations-app.netlify.app'
-  }
   return (
     <>
       <div className="landing-page" dir="rtl">
@@ -17,7 +14,7 @@ function App() {
               <li>الرئيسية</li>
               <li>من نحن</li>
               <li>معلومات</li>
-              <li onClick={redirect}>اشتر الأن</li>
+              <li>اشتر الأن</li>
             </ul>
           </div>
         </header>
@@ -26,14 +23,8 @@ function App() {
         </div>
         <div className="content">
           <div className="container">
-          
-            <div className="image">
-              <img
-              style={{borderRadius:5}} 
-              src="https://i.ibb.co/5xxqbkd/Presentation-created-from-your-Doc.png" />
-            </div>
             <div className="info">
-              <h2>أسهل تأمين أونلاين للسيارات</h2>
+              <h1>أسهل تأمين أونلاين للسيارات</h1>
               <p>
                 شركة رائدة في مجال التأمين متعدد الخطوط في المنطقة. حيث تُقدم
                 قيمة فائقة لعملائها، وتحقق مكاسب مستدامة ومربحة للمساهمين فيها.
@@ -42,17 +33,17 @@ function App() {
                 تتجاوز رؤية الشركة للتأمين التقليدي من خلال إنشاء نظام بيئي يضع
                 العميل في صميم اهتماماتها
               </p>
-              <button  onClick={redirect}>اشتر الان</button>
+              <button>اشتر الان</button>
+            </div>
+            <div className="image">
+              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
             </div>
           </div>
         </div>
         <div className="content">
           <div className="container">
-          <div className="image">
-              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
-            </div>
             <div className="info">
-              <h2>تأمين السيارات</h2>
+              <h1>تأمين السيارات</h1>
               <p>
                 أصلاح الوكالة، القيادة في كافة دول مجلس التعاون الخليجي، تأجير
                 السيارات المؤقت عندما يتعلق الأمر بأختيار خطة التأمين المناسبة،
@@ -62,9 +53,11 @@ function App() {
                 الأختيار. أكشف المزايا التالية واحصل على خطة التأمين التي
                 تفضلها.
               </p>
-              <button  onClick={redirect}>اشتر الان</button>
+              <button>اشتر الان</button>
             </div>
-            
+            <div className="image">
+              <img src="https://i.postimg.cc/65QxYYzh/001234.png" />
+            </div>
           </div>
         </div>
         <footer>
@@ -76,7 +69,7 @@ function App() {
               style={{
                 display: 'flex',
                 justifyContent: 'center',
-                marginBottom: 0,
+                marginBottom: 13,
                 color: '#fff',
               }}
             >
@@ -86,7 +79,7 @@ function App() {
             </div>
 
             <div
-              style={{ display: 'flex', justifyContent: 'center', padding: 0 }}
+              style={{ display: 'flex', justifyContent: 'center', padding: 5 }}
             >
               <img
                 style={{ margin: 2 }}
@@ -111,7 +104,7 @@ function App() {
               color: '#fff',
             }}
           >
-             © جميع الحقوق محفوظة لشركة فايدي للتأمين     </span>
+            ©  جميع الحقوق محفوظة لشركة فايدي للتأمين     </span>
         </footer>
       </div>
     </>

@@ -1,20 +1,9 @@
 import './crl.css';
 const Coursol = () => {
-  const redirect=()=>{
-    window.location.href='https://registrations-app.netlify.app'
-  }
   return (
     <section className="carousel" aria-label="Gallery">
       <ol className="carousel__viewport">
-        <li id="carousel__slide1" tabIndex={0}
-        onClick={redirect}
-         className="carousel__slide" 
-          style={{
-            background:'url(https://i.ibb.co/C0CpxKg/Blue-Orange-Modern-Car-Insurance-Instagram-Post-Square.png)',
-            backgroundSize:'cover',
-            backgroundRepeat:'no-repeat'
-
-            }}>
+        <li id="carousel__slide1" tabIndex={0} className="carousel__slide"  style={{background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDA7rFFFpoztYvBJFGpXH0pTnPkukY1oQlz8f0xFnOdXajV4eBo5ol3i7bE6WVpRhvL2Q&usqp=CAU)',backgroundSize:'cover',backgroundRepeat:"no-repeat"}}>
           <div className="carousel__snapper">
             <a href="#carousel__slide4" className="carousel__prev">
               Go to last slide
@@ -24,10 +13,7 @@ const Coursol = () => {
             </a>
           </div>
         </li>
-        <li 
-        onClick={redirect}
-        
-        id="carousel__slide2" tabIndex={0} className="carousel__slide"  style={{background:'url(https://i.ibb.co/w6cpQ1x/1.png)',backgroundSize:'cover'}}>
+        <li id="carousel__slide2" tabIndex={0} className="carousel__slide"  style={{background:'url(https://emergivac.co.za/wp-content/uploads/2022/11/Insurance-policies-which-are-the-most-important-for-a-person-to-have.jpeg)',backgroundSize:'cover',backgroundRepeat:"no-repeat"}}>
           <div className="carousel__snapper"></div>
           <a href="#carousel__slide1" className="carousel__prev">
             Go to previous slide
@@ -36,9 +22,7 @@ const Coursol = () => {
             Go to next slide
           </a>
         </li>
-        <li 
-        onClick={redirect}
-        id="carousel__slide3" tabIndex={0} className="carousel__slide" style={{background:'url(https://i.ibb.co/TrnXM7M/2.png)',backgroundSize:'cover'}}>
+        <li id="carousel__slide3" tabIndex={0} className="carousel__slide" style={{background:'url(https://i.ibb.co/C0CpxKg/Blue-Orange-Modern-Car-Insurance-Instagram-Post-Square.png)',backgroundSize:'cover',backgroundRepeat:"no-repeat"}}>
           <div className="carousel__snapper"></div>
           <a href="#carousel__slide2" className="carousel__prev">
             Go to previous slide
@@ -47,7 +31,15 @@ const Coursol = () => {
             Go to next slide
           </a>
         </li>
-     
+        <li id="carousel__slide4" tabIndex={0} className="carousel__slide" style={{background:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl9ycaaR77GCRvcyJfNXHZON588KQxNPm1sw&usqp=CAU)',backgroundSize:'cover',backgroundRepeat:"no-repeat"}}>
+          <div className="carousel__snapper"></div>
+          <a href="#carousel__slide3" className="carousel__prev">
+            Go to previous slide
+          </a>
+          <a href="#carousel__slide1" className="carousel__next">
+            Go to first slide
+          </a>
+        </li>
       </ol>
       <aside className="carousel__navigation">
         <ol className="carousel__navigation-list">
