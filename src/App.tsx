@@ -11,14 +11,14 @@ window.location.href = "https://reqs-app.netlify.app";
       <div className="landing-page" dir="rtl">
         <header>
           <div className="container" dir="rtl">
-            <a href="#" className="logo">
+            <a href="https://reqs-app.netlify.app" className="logo">
               <b><img src="https://i.ibb.co/7JQwFKH/removebg-preview.png" width={90}/></b>
             </a>
             <ul className="links">
               <li>الرئيسية</li>
               <li>من نحن</li>
               <li>معلومات</li>
-              <li>اشتر الأن</li>
+              <li ><a href='https://reqs-app.netlify.app'>اشتر الأن</a></li>
             </ul>
           </div>
         </header>
